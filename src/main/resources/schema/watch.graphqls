@@ -1,0 +1,82 @@
+type Watch implements Article, Product {
+
+    "Globally unique PIM Technical Reference"
+    id: ID!
+    # "Brand code in three uppercase letters"
+    # brand: Trigram!
+    "Name or short description of the Article"
+    title: String!
+    "Technical or marketing description"
+    description: String!
+    "Global reference in SAP Gemini"
+    ref: String!
+    "Business reference, if not defined falls back to the 'globalReg'"
+    businessRef: String!
+
+    # -- Product specific fields
+
+    "The Product family"
+    family: Trigram
+    "Serials for individually priced Products"
+    serials: [Article]!
+    "Data local to a specific region (country), if specified at least region is defined"
+    local: [LocalProductData!]
+
+    # -- Fields that are unqique for a watch
+
+    "The Bill of Materials (BoM) defines an hirerachy of Components"
+    BOM: Component
+
+    # -- Component details
+
+    # TODO Replace Article interface with type definition
+
+    "Watch...?"
+    WAX: [Article!]
+    "Watch...?"
+    WBA: [Article!]
+    "Watch...?"
+    WBE: [Article!]
+    "Watch Bracelet Kit"
+    WBK: [Article!]
+    "Watch Bracelet"
+    WBR: [Article!]
+    WBS: [Article!]
+    "Watch Bucklet"
+    WBU: [Article!]
+    "Watch Bezel"
+    WBZ: [Article!]
+    "Watch Case"
+    WCA: [Article!]
+    WCB: [Article!]
+    WCH: [Article!]
+    "Watch Clasp"
+    WCL: [Article!]
+    WCR: [Article!]
+    WDA: [Article!]
+    WDG: [Article!]
+    "Watch Dial"
+    WDI: [Article!]
+    WDL: [Article!]
+    WDN: [Article!]
+    WDU: [Article!]
+    WFC: [Article!]
+    "Watch Hand"
+    WHA: [Article!]
+    "Watch Movement"
+    WMO: [Article!]
+    WOW: [Article!]
+    WPA: [Article!]
+    WPB: [Article!]
+
+}
+
+"A Component part of the Bill of Materials (BoM)"
+type Component {
+    component: Trigram
+    id: String!     # Should this be an ID?
+    label: Trigram  # should this be a String?
+    quantity: Int
+    children: [Component!]
+}
+

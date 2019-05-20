@@ -1,0 +1,1141 @@
+{
+  "title": "watch",
+  "description": "Fancy Watch",
+
+    "BOM": [
+        {
+            "component": "PCK",
+            "id": "BM5CD",
+            "label": "PCK",
+            "quantity": ""
+        },
+        {
+            "children": [
+                {
+                    "component": "WBR",
+                    "id": "BMMX007VND",
+                    "label": "WBR",
+                    "quantity": "1"
+                },
+                {
+                    "component": "WBU",
+                    "id": "BMMX006VW7",
+                    "label": "WBU",
+                    "quantity": "1"
+                }
+            ],
+            "component": "WBK",
+            "id": "BMMX007VNH",
+            "label": "WBK",
+            "quantity": "1"
+        },
+        {
+            "children": [
+                {
+                    "component": "WCL",
+                    "id": "BMMX007F9P",
+                    "label": "WCL",
+                    "quantity": "1"
+                }
+            ],
+            "component": "WBR",
+            "id": "BMMX006VWG",
+            "label": "WBR",
+            "quantity": "1"
+        },
+        {
+            "children": [
+                {
+                    "component": "WBA",
+                    "id": "BMMX007VNW",
+                    "label": "WBA",
+                    "quantity": "1"
+                },
+                {
+                    "component": "WBZ",
+                    "id": "BMMX007VNX",
+                    "label": "WBZ",
+                    "quantity": "1"
+                },
+                {
+                    "component": "WCR",
+                    "id": "BMMX006V9D",
+                    "label": "WCR",
+                    "quantity": "1"
+                },
+                {
+                    "component": "WDU",
+                    "id": "BMMX0080VL",
+                    "label": "WDU",
+                    "quantity": "1"
+                }
+            ],
+            "component": "WCA",
+            "id": "BMMX007VNC",
+            "label": "WCA",
+            "quantity": "1"
+        },
+        {
+            "component": "WDI",
+            "id": "BMMX007VNF",
+            "label": "WDI",
+            "quantity": "1"
+        },
+        {
+            "component": "WHA",
+            "id": "BMMX007VNS",
+            "label": "WHA",
+            "quantity": "1"
+        },
+        {
+            "component": "WHA",
+            "id": "BMMX007VNT",
+            "label": "WHA",
+            "quantity": "1"
+        },
+        {
+            "component": "WHA",
+            "id": "BMMX007VNV",
+            "label": "WHA",
+            "quantity": "1"
+        },
+        {
+            "component": "WMO",
+            "id": "BMMX007VNJ",
+            "label": "WMO",
+            "quantity": "1"
+        }
+    ],
+    "PCK": [
+        {
+            "id": {
+                "field": "PCK",
+                "value": "BM5CD"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:PCK_REFERENCE",
+                "value": "BM5CD"
+            }
+        }
+    ],
+    "WBA": [
+        {
+            "fixing": {
+                "code": "WBA_BACK_FIXING-AVECVIS",
+                "field": "PIM:WBA_BACK_FIXING",
+                "value": "With screw"
+            },
+            "id": {
+                "field": "WBA",
+                "value": "BMMX007VNW"
+            },
+            "markingCaratsMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_CARATS_MKTG",
+                "value": "No"
+            },
+            "markingCollectionMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_COLLECTION_MKTG",
+                "value": true
+            },
+            "markingDecorMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_DECOR_MKTG",
+                "value": true
+            },
+            "markingEngravingMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_ENGRAVING_MKTG",
+                "value": true
+            },
+            "markingExclusiveMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_EXCLUSIVE_MKTG",
+                "value": false
+            },
+            "markingExclusiveValueMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_EXCLUSIVE_VALUE_MKTG",
+                "value": "-"
+            },
+            "markingLimitedMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_LIMITED_MKTG",
+                "value": true
+            },
+            "markingLimitedValueMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_LIMITED_VALUE_MKTG",
+                "value": "One out of 100"
+            },
+            "markingMaterialsMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_MATERIALS_MKTG",
+                "value": "Stainless steel"
+            },
+            "markingMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_MKTG",
+                "value": true
+            },
+            "markingSpecificTextMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_SPECIFIC_TEXT_MKTG",
+                "value": "Limited Edition - one out of 100 pieces"
+            },
+            "markingStandardMktg": {
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_MARKING_STANDARD_MKTG",
+                "value": true
+            },
+            "openingMktg": {
+                "code": "WBA_BACK_OPENING_MKTG-WBA_O_NO",
+                "field": "PIM:BAUMEMERCIER:WBA_BACK_OPENING_MKTG",
+                "value": "No"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WBA_REFERENCE",
+                "value": "MX007VNW"
+            }
+        }
+    ],
+    "WBK": [
+        {
+            "braceletKitSize": {
+                "code": "WBK_BRACELET_KIT_SIZE-WBK_Size_Standard",
+                "field": "PIM:BAUMEMERCIER:WBK_BRACELET_KIT_SIZE",
+                "value": "Standard"
+            },
+            "id": {
+                "field": "WBK",
+                "value": "BMMX007VNH"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WBK_REFERENCE",
+                "value": "MX007VNH"
+            }
+        }
+    ],
+    "WBR": [
+        {
+            "buckleType": {
+                "code": "WBR_S_BUCKLE_TYPE-ARDILLON",
+                "field": "PIM:BAUMEMERCIER:WBR_S_BUCKLE_TYPE",
+                "value": ""
+            },
+            "buckleWidth": {
+                "field": "PIM:BAUMEMERCIER:WBR_S_BUCKLE_WIDTH",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 16.0
+            },
+            "cSReference": {
+                "field": "PIM:BAUMEMERCIER:WBR_BRACELET_REFERENCE_SAV",
+                "value": "MX007VND"
+            },
+            "caseThickness": {
+                "field": "PIM:BAUMEMERCIER:WBR_S_CASE_THICKNESS",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 3.9
+            },
+            "id": {
+                "field": "WBR",
+                "value": "BMMX007VND"
+            },
+            "inscribing12H": {
+                "field": "PIM:BAUMEMERCIER:WBR_S_INSCRIBING_12H",
+                "value": "MARQUAGE ORIGINE, CODE DATE"
+            },
+            "inscribing6H": {
+                "field": "PIM:BAUMEMERCIER:WBR_S_INSCRIBING_6H",
+                "value": "BAUME & MERCIER"
+            },
+            "interchangeableMktg": {
+                "field": "PIM:BAUMEMERCIER:WBR_INTERCHANGEABLE_MKTG",
+                "value": true
+            },
+            "liningColor": {
+                "code": "WBR_S_LINING_COLOR-BEIGE",
+                "field": "PIM:WBR_S_LINING_COLOR",
+                "value": "Beige"
+            },
+            "liningColorMktg": {
+                "field": "PIM:BAUMEMERCIER:WBR_S_LINING_COLOR_MKTG",
+                "value": "Beige"
+            },
+            "liningMaterial": {
+                "code": "WBR_S_LINING_MATERIAL-SILK-GLOVE",
+                "field": "PIM:WBR_S_LINING_MATERIAL",
+                "value": "Silk-glove"
+            },
+            "liningMaterialMktg": {
+                "field": "PIM:BAUMEMERCIER:WBR_S_LINING_MATERIAL_MKTG",
+                "value": "Calfskin"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WBR_REFERENCE",
+                "value": "MX007VND"
+            },
+            "selfInterchangeable": {
+                "field": "PIM:BAUMEMERCIER:WBR_SELF_INTERCHANGEABLE",
+                "value": true
+            },
+            "size": {
+                "code": "WBR_BRACELET_SIZE-STANDARD",
+                "field": "PIM:WBR_BRACELET_SIZE",
+                "value": "Standard"
+            },
+            "sliceType": {
+                "code": "WBR_S_SLICE_TYPE-REMBORDE",
+                "field": "PIM:WBR_S_SLICE_TYPE",
+                "value": "Double-hem finished"
+            },
+            "threadColor": {
+                "code": "WBR_S_THREAD_COLOR-AUCUNE",
+                "field": "PIM:WBR_S_THREAD_COLOR",
+                "value": "-"
+            },
+            "type": {
+                "code": "WBR_TYPE_OF_BRACELET-BRACELET_SIMPLE",
+                "field": "PIM:WBR_TYPE_OF_BRACELET",
+                "value": "Bracelet"
+            }
+        },
+        {
+            "cSReference": {
+                "field": "PIM:BAUMEMERCIER:WBR_BRACELET_REFERENCE_SAV",
+                "value": "MX006VWG"
+            },
+            "finish": {
+                "code": "WBR_M_FINISH-SATINE-POLI",
+                "field": "PIM:WBR_M_FINISH",
+                "value": "Polished/satin-finished"
+            },
+            "halfLink": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_DEMI_MAILLON",
+                "value": true
+            },
+            "halfLinkReference": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_HALF_LINK_REFERENCE",
+                "value": "MX006W8N"
+            },
+            "halfLinkSize": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_HALF_LINK_SIZE",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 10.01
+            },
+            "id": {
+                "field": "WBR",
+                "value": "BMMX006VWG"
+            },
+            "interchangeableMktg": {
+                "field": "PIM:BAUMEMERCIER:WBR_INTERCHANGEABLE_MKTG",
+                "value": true
+            },
+            "link": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_LINK",
+                "value": true
+            },
+            "linkReference": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_LINK_REFERENCE",
+                "value": "MX006W8P"
+            },
+            "linkSize": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_LINK_SIZE",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 13.5
+            },
+            "markingCaratsNumberMktg": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_BRACELET_MARKING_CARATS_NUMBER_MKTG",
+                "value": "No"
+            },
+            "markingMaterialsMktg": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_BRACELET_MARKING_MATERIALS_MKTG",
+                "value": "No"
+            },
+            "markingMktg": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_BRACELET_MARKING_MKTG",
+                "value": true
+            },
+            "markingStandardMktg": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_BRACELET_MARKING_STANDARD_MKTG",
+                "value": true
+            },
+            "numberOfHalfLinks": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_DEMI_MAILLON_NUMBER",
+                "value": 2
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WBR_REFERENCE",
+                "value": "MX006VWG"
+            },
+            "selfInterchangeable": {
+                "field": "PIM:BAUMEMERCIER:WBR_SELF_INTERCHANGEABLE",
+                "value": true
+            },
+            "setting": {
+                "code": "WBR_M_BRACELET_SETTING-NON",
+                "field": "PIM:WBR_M_BRACELET_SETTING",
+                "value": "No"
+            },
+            "size": {
+                "code": "WBR_BRACELET_SIZE-32MM",
+                "field": "PIM:WBR_BRACELET_SIZE",
+                "value": "32 mm"
+            },
+            "type": {
+                "code": "WBR_TYPE_OF_BRACELET-BRACELET_METAL",
+                "field": "PIM:WBR_TYPE_OF_BRACELET",
+                "value": "Metal bracelet"
+            },
+            "width": {
+                "field": "PIM:BAUMEMERCIER:WBR_M_BRACELET_WIDTH",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 17.5
+            }
+        }
+    ],
+    "WBU": [
+        {
+            "braceletReferenceMktg": {
+                "field": "PIM:BAUMEMERCIER:WBU_BRACELET_REFERENCE_MKTG",
+                "value": "MX0079H8"
+            },
+            "finish": {
+                "code": "WBU_BUCKLE_FINISH-SATINE-POLI",
+                "field": "PIM:WBU_BUCKLE_FINISH",
+                "value": "Polished/satin-finished"
+            },
+            "finishMktg": {
+                "code": "WBU_BUCKLE_FINISH_MKTG-WBU_FIN_POLISHEDSATIN",
+                "field": "PIM:BAUMEMERCIER:WBU_BUCKLE_FINISH_MKTG",
+                "value": "Polished satin-finished"
+            },
+            "id": {
+                "field": "WBU",
+                "value": "BMMX006VW7"
+            },
+            "markingCaratsMktg": {
+                "field": "PIM:BAUMEMERCIER:WBU_BUCKLE_MARKING_CARATS_MKTG",
+                "value": "No"
+            },
+            "markingMaterialsMktg": {
+                "field": "PIM:BAUMEMERCIER:WBU_BUCKLE_MARKING_MATERIALS_MKTG",
+                "value": "No"
+            },
+            "markingMktg": {
+                "field": "PIM:BAUMEMERCIER:WBU_BUCKLE_MARKING_MKTG",
+                "value": true
+            },
+            "markingStandardMktg": {
+                "field": "PIM:BAUMEMERCIER:WBU_BUCKLE_MARKING_STANDARD_MKTG",
+                "value": true
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WBU_REFERENCE",
+                "value": "MX006VW7"
+            },
+            "setting": {
+                "code": "WBU_BUCKLE_SETTING-NON",
+                "field": "PIM:WBU_BUCKLE_SETTING",
+                "value": "No"
+            },
+            "type": {
+                "code": "WBU_TYPE-BOUCLE_ARDILLON",
+                "field": "PIM:WBU_TYPE",
+                "value": "Ardillon buckle"
+            },
+            "typeMktg": {
+                "code": "WBU_BUCKLE_TYPE_MKTG-WBU_TYPE_PIN",
+                "field": "PIM:BAUMEMERCIER:WBU_BUCKLE_TYPE_MKTG",
+                "value": "Pin buckle"
+            },
+            "width": {
+                "field": "PIM:BAUMEMERCIER:WBU_WIDTH",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 16.1
+            }
+        }
+    ],
+    "WBZ": [
+        {
+            "finish": {
+                "code": "WBZ_BEZEL_FINISH-SATINE-POLI",
+                "field": "PIM:WBZ_BEZEL_FINISH",
+                "value": "Polished/satin-finished"
+            },
+            "id": {
+                "field": "WBZ",
+                "value": "BMMX007VNX"
+            },
+            "luminescenceMktg": {
+                "field": "PIM:BAUMEMERCIER:WBZ_LUMINESCENCE_MKTG",
+                "value": false
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WBZ_REFERENCE",
+                "value": "MX007VNX"
+            },
+            "setting": {
+                "code": "WBZ_BEZEL_SETTING-OUI",
+                "field": "PIM:WBZ_BEZEL_SETTING",
+                "value": "Yes"
+            },
+            "type": {
+                "code": "WBZ_TYPE_OF_BEZEL-NON",
+                "field": "PIM:WBZ_TYPE_OF_BEZEL",
+                "value": "Non-rotating bezel"
+            },
+            "typeMktg": {
+                "code": "WBZ_TYPE_OF_BEZEL_MKTG-WBZ_TYPE_Engraved",
+                "field": "PIM:BAUMEMERCIER:WBZ_TYPE_OF_BEZEL_MKTG",
+                "value": "Engraved bezel"
+            }
+        }
+    ],
+    "WCA": [
+        {
+            "decorationScrew": {
+                "field": "PIM:BAUMEMERCIER:WCA_DECORATION_SCREW",
+                "value": true
+            },
+            "diameter_mm": {
+                "field": "PIM:BAUMEMERCIER:WCA_DIAMETER",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 32.0
+            },
+            "finish": {
+                "code": "WCA_FINISH-SATINE-POLI",
+                "field": "PIM:WCA_FINISH",
+                "value": "Polished/satin-finished"
+            },
+            "finishMktg": {
+                "code": "WCA_FINISH_MKTG-WCA_FIN_POLISHED_SATIN",
+                "field": "PIM:BAUMEMERCIER:WCA_FINISH_MKTG",
+                "value": "Polished/satin-finished"
+            },
+            "id": {
+                "field": "WCA",
+                "value": "BMMX007VNC"
+            },
+            "length": {
+                "field": "PIM:BAUMEMERCIER:WCA_LENGTH",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 0.0
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WCA_REFERENCE",
+                "value": "MX007VNC"
+            },
+            "setting": {
+                "code": "WCA_CASE_SETTING-OUI",
+                "field": "PIM:WCA_CASE_SETTING",
+                "value": "Yes"
+            },
+            "thickness": {
+                "field": "PIM:BAUMEMERCIER:WCA_THICKNESS",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 9.3
+            },
+            "width": {
+                "field": "PIM:BAUMEMERCIER:WCA_WIDTH",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 0.0
+            }
+        }
+    ],
+    "WCL": [
+        {
+            "finish": {
+                "code": "WCL_FINISH-POLI",
+                "field": "PIM:WCL_FINISH",
+                "value": "Polished"
+            },
+            "finishMktg": {
+                "code": "WCL_FINISH_MKTG-WCL_FIN_POLISHED",
+                "field": "PIM:BAUMEMERCIER:WCL_FINISH_MKTG",
+                "value": "Polished"
+            },
+            "id": {
+                "field": "WCL",
+                "value": "BMMX007F9P"
+            },
+            "markingCaratsMktg": {
+                "field": "PIM:BAUMEMERCIER:WCL_CLASP_MARKING_CARATS_MKTG",
+                "value": "No"
+            },
+            "markingMaterialsMktg": {
+                "field": "PIM:BAUMEMERCIER:WCL_CLASP_MARKING_MATERIALS_MKTG",
+                "value": "Stainless steel"
+            },
+            "markingMktg": {
+                "field": "PIM:BAUMEMERCIER:WCL_CLASP_MARKING_MKTG",
+                "value": true
+            },
+            "markingStandardMktg": {
+                "field": "PIM:BAUMEMERCIER:WCL_CLASP_MARKING_STANDARD_MKTG",
+                "value": true
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WCL_REFERENCE",
+                "value": "MX007F9P"
+            },
+            "setting": {
+                "code": "WCL_SETTING-NON",
+                "field": "PIM:WCL_SETTING",
+                "value": "No"
+            },
+            "type": {
+                "code": "WCL_CLASP_TYPE-FERMOIR_DD_TD",
+                "field": "PIM:WCL_CLASP_TYPE",
+                "value": "Folding Clasp"
+            },
+            "typeMktg": {
+                "code": "WCL_CLASP_TYPE_MKTG-WCL_TYPE_TRIPLE_PUSH",
+                "field": "PIM:BAUMEMERCIER:WCL_CLASP_TYPE_MKTG",
+                "value": "Triple folding clasp with security push-pieces"
+            }
+        }
+    ],
+    "WCR": [
+        {
+            "descriptionMktg": {
+                "field": "PIM:BAUMEMERCIER:WCR_CROWN_DESC_MKTG",
+                "value": "Free"
+            },
+            "descriptionPLM": {
+                "field": "PIM:BAUMEMERCIER:WCR_CROWN_DESC_PLM",
+                "value": "Couronne Cannelée Acier allié déc X2CrNiMo(S) 18-14-3 1.4435 Poli D=5.1"
+            },
+            "id": {
+                "field": "WCR",
+                "value": "BMMX006V9D"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WCR_REFERENCE",
+                "value": "MX006V9D"
+            },
+            "setting": {
+                "code": "WCR_CROWN_SETTING-NON",
+                "field": "PIM:WCR_CROWN_SETTING",
+                "value": "No"
+            }
+        }
+    ],
+    "WDI": [
+        {
+            "color": {
+                "code": "WDI_COLOR_OF_DIAL-BLEU",
+                "field": "PIM:BAUMEMERCIER:WDI_COLOR_OF_DIAL",
+                "value": "Blue"
+            },
+            "colorMktg": {
+                "code": "WDI_COLOR_OF_DIAL_MKTG-WDI_MK_SETNIGHTBLUEMOTHER",
+                "field": "PIM:BAUMEMERCIER:WDI_COLOR_OF_DIAL_MKTG",
+                "value": "Diamond-set night blue mother-of-pearl"
+            },
+            "dialDecor": {
+                "code": "WDI_DIAL_DECOR-WDI_DEC_CHAMPLEVE",
+                "field": "PIM:BAUMEMERCIER:WDI_DIAL_DECOR",
+                "value": "\"Champlevé\""
+            },
+            "finish": {
+                "code": "WDI_DIAL_FINISH-SANS",
+                "field": "PIM:WDI_DIAL_FINISH",
+                "value": "-"
+            },
+            "finishMktg": {
+                "code": "WDI_DIAL_FINISH_MKTG-WDI_FIN_NO",
+                "field": "PIM:BAUMEMERCIER:WDI_DIAL_FINISH_MKTG",
+                "value": "No"
+            },
+            "id": {
+                "field": "WDI",
+                "value": "BMMX007VNF"
+            },
+            "indexColor": {
+                "code": "WDN_INDEX_COLOR-WDN_INDC_NONE",
+                "field": "PIM:BAUMEMERCIER:WDN_INDEX_COLOR",
+                "value": "-"
+            },
+            "indexFinishMktg": {
+                "code": "WDN_INDEX_FINISH_MKTG-WDN_IND_NONE",
+                "field": "PIM:BAUMEMERCIER:WDN_INDEX_FINISH_MKTG",
+                "value": "-"
+            },
+            "indexMktg": {
+                "field": "PIM:BAUMEMERCIER:WDN_INDEX_MKTG",
+                "value": false
+            },
+            "luminescence": {
+                "code": "WDN_LUMINESCENCE-SANS",
+                "field": "PIM:WDN_LUMINESCENCE",
+                "value": "-"
+            },
+            "numeralsColorMktg": {
+                "code": "WDN_NUMERALS_COLOR_MKTG-WDN_NUMC_NONE",
+                "field": "PIM:BAUMEMERCIER:WDN_NUMERALS_COLOR_MKTG",
+                "value": "-"
+            },
+            "numeralsFinishMktg": {
+                "code": "WDN_NUMERALS_FINISH_MKTG-WDN_NUM_NONE",
+                "field": "PIM:BAUMEMERCIER:WDN_NUMERALS_FINISH_MKTG",
+                "value": "-"
+            },
+            "numeralsMktg": {
+                "field": "PIM:BAUMEMERCIER:WDN_NUMERALS_MKTG",
+                "value": false
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WDI_REFERENCE",
+                "value": "BMMX007VNF"
+            },
+            "setting": {
+                "code": "WDI_DIAL_SETTING-OUI",
+                "field": "PIM:WDI_DIAL_SETTING",
+                "value": "Yes"
+            },
+            "specificHighlights": {
+                "field": "PIM:BAUMEMERCIER:WDI_DIAL_SPECIFIC_HIGHLIGHTS",
+                "value": "Set and painted stars, riveted rhodium-plated dots, champlevé set waves (on relief)."
+            },
+            "typeOfIndex": {
+                "code": "WDN_TYPE_OF_INDEX-WDN_INDT_NONE",
+                "field": "PIM:BAUMEMERCIER:WDN_TYPE_OF_INDEX",
+                "value": "-"
+            },
+            "typeOfNumeral": {
+                "code": "WDN_TYPE_OF_NUMERAL-WDN_NUMT_NONE",
+                "field": "PIM:BAUMEMERCIER:WDN_TYPE_OF_NUMERAL",
+                "value": "-"
+            }
+        }
+    ],
+    "WDU": [
+        {
+            "antiReflective": {
+                "code": "WDU_ANTI_REFLECTIVE-ANTI-REFLETMULTI-COUCHEINCOLOREINTERIEURETMETALLISATION",
+                "field": "PIM:WDU_ANTI_REFLECTIVE",
+                "value": "Anti-glare single-layer transparent interior"
+            },
+            "antiScratch": {
+                "field": "PIM:BAUMEMERCIER:WDU_ANTI_SCRATCH",
+                "value": true
+            },
+            "id": {
+                "field": "WDU",
+                "value": "BMMX0080VL"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WDU_REFERENCE",
+                "value": "BMMX0080VL"
+            },
+            "shapeMktg": {
+                "code": "WDU_SHAPE_MKTG-WDU_DOMED",
+                "field": "PIM:BAUMEMERCIER:WDU_SHAPE_MKTG",
+                "value": "Domed"
+            },
+            "typeOfCrystal": {
+                "code": "WDU_TYPE_OF_CRYSTAL-SAPHIR",
+                "field": "PIM:WDU_TYPE_OF_CRYSTAL",
+                "value": "Sapphire"
+            },
+            "typeOfCrystalMktg": {
+                "code": "WDU_TYPE_OF_CRYSTAL_MKTG-WDU_TYPE_SAPPHIRE",
+                "field": "PIM:BAUMEMERCIER:WDU_TYPE_OF_CRYSTAL_MKTG",
+                "value": "Sapphire"
+            }
+        }
+    ],
+    "WHA": [
+        {
+            "color": {
+                "code": "WHA_COLOR-GRISE",
+                "field": "PIM:BAUMEMERCIER:WHA_COLOR",
+                "value": "Gray"
+            },
+            "id": {
+                "field": "WHA",
+                "value": "BMMX007VNS"
+            },
+            "luminescence": {
+                "code": "WHA_LUMINESCENCE-SANS",
+                "field": "PIM:WHA_LUMINESCENCE",
+                "value": "-"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WHA_REFERENCE",
+                "value": "BMMX007VNS"
+            },
+            "shape": {
+                "code": "WHA_SHAPE-SPECIALE",
+                "field": "PIM:WHA_SHAPE",
+                "value": "Special"
+            }
+        },
+        {
+            "color": {
+                "code": "WHA_COLOR-GRISE",
+                "field": "PIM:BAUMEMERCIER:WHA_COLOR",
+                "value": "Gray"
+            },
+            "colorMktg": {
+                "code": "WHA_COLOR_MKTG-WHA_NONE",
+                "field": "PIM:BAUMEMERCIER:WHA_COLOR_MKTG",
+                "value": "-"
+            },
+            "id": {
+                "field": "WHA",
+                "value": "BMMX007VNT"
+            },
+            "luminescence": {
+                "code": "WHA_LUMINESCENCE-SANS",
+                "field": "PIM:WHA_LUMINESCENCE",
+                "value": "-"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WHA_REFERENCE",
+                "value": "BMMX007VNT"
+            },
+            "shape": {
+                "code": "WHA_SHAPE-DAUPHINE",
+                "field": "PIM:WHA_SHAPE",
+                "value": "Dauphine"
+            }
+        },
+        {
+            "color": {
+                "code": "WHA_COLOR-GRISE",
+                "field": "PIM:BAUMEMERCIER:WHA_COLOR",
+                "value": "Gray"
+            },
+            "colorMktg": {
+                "code": "WHA_COLOR_MKTG-WHA_NONE",
+                "field": "PIM:BAUMEMERCIER:WHA_COLOR_MKTG",
+                "value": "-"
+            },
+            "id": {
+                "field": "WHA",
+                "value": "BMMX007VNV"
+            },
+            "luminescence": {
+                "code": "WHA_LUMINESCENCE-SANS",
+                "field": "PIM:WHA_LUMINESCENCE",
+                "value": "-"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WHA_REFERENCE",
+                "value": "BMMX007VNV"
+            },
+            "shape": {
+                "code": "WHA_SHAPE-DAUPHINE",
+                "field": "PIM:WHA_SHAPE",
+                "value": "Dauphine"
+            }
+        }
+    ],
+    "WMO": [
+        {
+            "bridgeFinishing": {
+                "code": "WMO_BRIDGE_FINISHING-WMO_BR_NONE",
+                "field": "PIM:BAUMEMERCIER:WMO_BRIDGE_FINISHING",
+                "value": "-"
+            },
+            "businessReference": {
+                "field": "PIM:BAUMEMERCIER:WMO_BUSINESS_REFERENCE",
+                "value": "RONDA 708"
+            },
+            "cosc": {
+                "field": "PIM:BAUMEMERCIER:WMO_COSC",
+                "value": false
+            },
+            "designation": {
+                "code": "WMO_MOVEMENT_DESIGNATION-RONDA708",
+                "field": "PIM:BAUMEMERCIER:WMO_MOVEMENT_DESIGNATION",
+                "value": ""
+            },
+            "designationMktg": {
+                "code": "WMO_MOVEMENT_DESIGNATION_MKTG-WMO_DES_M_RONDA708",
+                "field": "PIM:BAUMEMERCIER:WMO_MOVEMENT_DESIGNATION_MKTG",
+                "value": "Ronda 708"
+            },
+            "diameterLines": {
+                "field": "PIM:BAUMEMERCIER:WMO_DIAMETER_LINES",
+                "value": "10 1/2'''"
+            },
+            "id": {
+                "field": "WMO",
+                "value": "BMMX007VNJ"
+            },
+            "manufacture": {
+                "field": "PIM:BAUMEMERCIER:WMO_MOVEMENT_MANUFACTURE",
+                "value": false
+            },
+            "numberOfRubis": {
+                "field": "PIM:BAUMEMERCIER:WMO_NUMBER_OF_RUBIS",
+                "value": 5
+            },
+            "oscillatingWeightFinishing": {
+                "code": "WMO_OSCILLATING_WEIGHT_FINISHING-WMO_OSC_NONE",
+                "field": "PIM:BAUMEMERCIER:WMO_OSCILLATING_WEIGHT_FINISHING",
+                "value": "-"
+            },
+            "plateFinishing": {
+                "code": "WMO_PLATE_FINISHING-WMO_PL_NONE",
+                "field": "PIM:BAUMEMERCIER:WMO_PLATE_FINISHING",
+                "value": "-"
+            },
+            "reference": {
+                "field": "PIM:BAUMEMERCIER:WMO_REFERENCE",
+                "value": "MX007VNJ"
+            },
+            "specificHighlights": {
+                "field": "PIM:BAUMEMERCIER:WMO_SPECIFIC_HIGHLIGHTS",
+                "value": "Blue moon phase indicator disc with white painted stars and rhodium plated moon."
+            },
+            "swissMade": {
+                "field": "PIM:BAUMEMERCIER:WMO_SWISS_MADE",
+                "value": true
+            },
+            "thickness": {
+                "field": "PIM:BAUMEMERCIER:WMO_THICKNESS",
+                "unit": "Millimeters",
+                "unitCode": "MM",
+                "value": 3.13
+            },
+            "type": {
+                "code": "WMO_ENERGY-MOUVEMENT_QUARTZ",
+                "field": "PIM:BAUMEMERCIER:WMO_ENERGY",
+                "value": "Quartz"
+            },
+            "typeOfMovement": {
+                "code": "WMO_TYPE_OF_MOVEMENT-PHASEDELUNE",
+                "field": "PIM:WMO_TYPE_OF_MOVEMENT",
+                "value": "Moon phase"
+            }
+        }
+    ],
+    "articleCategory": {
+        "code": "CRE_ARTICLE_CATEGORY-00",
+        "field": "PIM:CRE_ARTICLE_CATEGORY",
+        "value": "Single article"
+    },
+    "articleType": {
+        "code": "CRE_ARTICLE_TYPE-BM01",
+        "field": "PIM:BAUMEMERCIER:CRE_ARTICLE_TYPE",
+        "value": ""
+    },
+    "brand": {
+        "code": "CRE_BRAND-BAUMEMERCIER",
+        "field": "PIM:CRE_BRAND",
+        "value": "Baume&Mercier"
+    },
+    "cites": {
+        "field": "PIM:BAUMEMERCIER:COM_CITES",
+        "value": true
+    },
+    "collectionProductLine": {
+        "field": "PIM:BAUMEMERCIER:WMF:CRE_COLLECTION_PRODUCT_LINE",
+        "value": "PIM:BAUMEMERCIER:WMF:CRE_COLLECTION_PRODUCT_LINE:COLL_LINEA"
+    },
+    "deliveredOn": {
+        "code": "WMF_DELIVERED_ON-WBR_DELI_STRAP",
+        "field": "PIM:BAUMEMERCIER:WMF_DELIVERED_ON",
+        "value": "Supple strap"
+    },
+    "diamondCertificat": {
+        "field": "PIM:BAUMEMERCIER:WPA_DIAMOND_CERTIFICAT",
+        "value": true
+    },
+    "distributionPlatform": {
+        "code": "CRE_DISTRIBUTION_PLATFORM-RID",
+        "field": "PIM:CRE_DISTRIBUTION_PLATFORM",
+        "value": "RID"
+    },
+    "document": {
+        "code": "COM_DOCREF_BLOCK-USERGUIDE22",
+        "field": "PIM:BAUMEMERCIER:COM_DOCREF_BLOCK",
+        "value": "USERGUIDE22"
+    },
+    "engraving": {
+        "field": "PIM:BAUMEMERCIER:COM_ENGRAVING",
+        "value": false
+    },
+    "internalReference": {
+        "field": "PIM:BAUMEMERCIER:CRE_INTERNAL_REFERENCE",
+        "value": "65738"
+    },
+    "limitedEdition": {
+        "field": "PIM:BAUMEMERCIER:CRE_LIMITED_EDITION",
+        "value": true
+    },
+    "limitedEditionType": {
+        "code": "CRE_LIMITED_EDITION_TYPE-CRE_TYPE_LIMITEDEDITION",
+        "field": "PIM:BAUMEMERCIER:CRE_LIMITED_EDITION_TYPE",
+        "value": "Limited edition"
+    },
+    "limitedEditionValue": {
+        "field": "PIM:BAUMEMERCIER:CRE_LIMITED_EDITION_VALUE",
+        "value": "one out of 100"
+    },
+    "marketingDescription": {
+        "field": "PIM:BAUMEMERCIER:COM_MARKETING_DESCRIPTION",
+        "value": "Emblematic piece. Limited edition, 32mm.  Quartz movement (Ronda 708) featuring moon phase function.  Diamond-set steel case, diamond-set night blue mother-of-pearl dial, interchangeable bracelets: night blue satin strap or steel bracelet."
+    },
+    "merchandiseCategory": {
+        "code": "CRE_MERCHANDISE_CATEGORY-BM0101001",
+        "field": "PIM:BAUMEMERCIER:CRE_MERCHANDISE_CATEGORY",
+        "value": ""
+    },
+    "netProductWeight": {
+        "field": "PIM:BAUMEMERCIER:COM_NET_PRODUCT_WEIGHT",
+        "unit": "Grammes",
+        "unitCode": "G",
+        "value": 113.12
+    },
+    "network": {
+        "code": "COM_NETWORK-NET_ALL",
+        "field": "PIM:BAUMEMERCIER:WMF:COM_NETWORK",
+        "value": "All"
+    },
+    "node": {
+        "code": "CRE_NODE-BMKN",
+        "field": "PIM:BAUMEMERCIER:CRE_NODE",
+        "value": "LINEA      ROUND    M   SST  LE  COM EP"
+    },
+    "oneShot": {
+        "field": "PIM:BAUMEMERCIER:WMF_ONE_SHOT",
+        "value": true
+    },
+    "pLMReference": {
+        "field": "PIM:BAUMEMERCIER:CRE_PLM_REFERENCE",
+        "value": "MX007VN6"
+    },
+    "pimLifecycleStatus": {
+        "code": "COM_PIM_LIFECYCLE_STATUS-DIFFUSED",
+        "field": "PIM:COM_PIM_LIFECYCLE_STATUS",
+        "value": "Diffused to Browse"
+    },
+    "precious": {
+        "field": "PIM:BAUMEMERCIER:COM_PRECIOUS",
+        "value": true
+    },
+    "productFamily": {
+        "code": "CRE_PRODUCT_FAMILY-WMF",
+        "field": "PIM:BAUMEMERCIER:CRE_PRODUCT_FAMILY",
+        "value": "Watches"
+    },
+    "productLaunchDate": {
+        "field": "PIM:BAUMEMERCIER:COM_PRODUCT_LAUNCH_DATE",
+        "value": "2013-05-01"
+    },
+    "productName": {
+        "field": "PIM:BAUMEMERCIER:CRE_PRODUCT_NAME",
+        "value": "Linea steel diamond quartz moon-phase watch Ladies round 32 mm interchangeable strap"
+    },
+    "productType": {
+        "code": "CRE_PRODUCT_TYPE-WATCH",
+        "field": "PIM:BAUMEMERCIER:WMF:CRE_PRODUCT_TYPE",
+        "value": "Watch"
+    },
+    "rangeStatus": {
+        "code": "COM_RANGE_STATUS-25",
+        "field": "PIM:COM_RANGE_STATUS",
+        "value": "Out of range"
+    },
+    "reference": {
+        "field": "PIM:BAUMEMERCIER:CRE_SAP_REFERENCE",
+        "value": "BMM0A10119"
+    },
+    "sAPBISMT": {
+        "field": "PIM:BAUMEMERCIER:CRE_SAP_BISMT",
+        "value": "M0A10119"
+    },
+    "sAPLongDescriptionLine1": {
+        "field": "PIM:BAUMEMERCIER:PIM_SAP_LONG_DESCRIPTION1_EN",
+        "value": "LINEA SST/SN COM MOONPHASE  M"
+    },
+    "sAPLongDescriptionLine2": {
+        "field": "PIM:BAUMEMERCIER:PIM_SAP_LONG_DESCRIPTION2_EN",
+        "value": "SET MOP (ATRINA VEXILLUM) BLUE DIAL"
+    },
+    "sAPLongDescriptionLine3": {
+        "field": "PIM:BAUMEMERCIER:PIM_SAP_LONG_DESCRIPTION3_EN",
+        "value": "BLUE SATIN STRAP + STEEL BRACELET"
+    },
+    "sAPPLC": {
+        "code": "COM_SAP_PLC-65",
+        "field": "PIM:COM_SAP_PLC",
+        "value": "Destruction"
+    },
+    "sAPShortDescription": {
+        "field": "PIM:BAUMEMERCIER:CRE_SAP_SHORT_DESCRIPTION_EN",
+        "value": "LINEA      ROUND    M   SST SN  COM MPSB"
+    },
+    "segmentationAxeStrategique": {
+        "code": "COM_SEGMENTATION_AXE_STRATEGIQUE-CRE_WMF_LIMITEDEDITION",
+        "field": "PIM:BAUMEMERCIER:COM_SEGMENTATION_AXE_STRATEGIQUE",
+        "value": "Limited edition"
+    },
+    "shape": {
+        "code": "WMF_SHAPE-RONDE",
+        "field": "PIM:WMF_SHAPE",
+        "value": "Round"
+    },
+    "size": {
+        "code": "WMF_SIZE-32MM",
+        "field": "PIM:WMF_SIZE",
+        "value": "32 mm"
+    },
+    "specialOrder": {
+        "field": "PIM:BAUMEMERCIER:CRE_SPECIAL_ORDER",
+        "value": false
+    },
+    "specialOrderClientIdentityMktg": {
+        "field": "PIM:BAUMEMERCIER:COM_SPECIAL_ORDER_CLIENT_IDENTITY_MKTG",
+        "value": "-"
+    },
+    "specificHighlights": {
+        "field": "PIM:BAUMEMERCIER:COM_SPECIFIC_HIGHLIGHTS",
+        "value": "For the first time on the Linea Collection, a moon phase complication (quartz movement) is introduced."
+    },
+    "subCollection": {
+        "field": "PIM:BAUMEMERCIER:WMF:CRE_SUB_COLLECTION",
+        "value": "PIM:BAUMEMERCIER:WMF:CRE_SUB_COLLECTION:WMF_SUBCOLL_NO"
+    },
+    "subType": {
+        "code": "CRE_SUB_TYPE-001001",
+        "field": "PIM:CRE_SUB_TYPE",
+        "value": "WATCH-WATCH"
+    },
+    "target": {
+        "code": "COM_TARGET-RI00004",
+        "field": "PIM:COM_TARGET",
+        "value": "Ladies"
+    },
+    "traced": {
+        "field": "PIM:BAUMEMERCIER:CRE_TRACED",
+        "value": true
+    },
+    "tracked": {
+        "field": "PIM:BAUMEMERCIER:CRE_TRACKED",
+        "value": false
+    },
+    "watchNumberOfBraceletsMktg": {
+        "field": "PIM:BAUMEMERCIER:WMF_WATCH_NUMBER_OF_BRACELETS_MKTG",
+        "value": 2
+    },
+    "waterResistant": {
+        "code": "WMF_WATER-RESISTANT-50M",
+        "field": "PIM:BAUMEMERCIER:WMF_WATER-RESISTANT",
+        "value": "5 ATM (approx. 50 m)"
+    },
+    "worldwideDistribution": {
+        "field": "PIM:BAUMEMERCIER:COM_WORLDWIDE_DISTRIBUTION",
+        "value": 1
+    },
+    "worldwidePrice": {
+        "field": "PIM:BAUMEMERCIER:COM_WORLDWIDE_PRICE",
+        "unit": "Chf",
+        "unitCode": "CHF",
+        "value": 5800.0
+    }
+}

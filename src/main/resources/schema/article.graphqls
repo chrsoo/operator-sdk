@@ -1,0 +1,24 @@
+"Articles are the basic entity of the Catalog"
+interface Article {
+    "Globally unique PIM Technical Reference"
+    id: ID!
+    # "Brand code in three uppercase letters"
+    # brand: Trigram!
+    "Name or short description of the Article"
+    title: String!
+    "Technical or marketing description"
+    description: String!
+    "Global reference in SAP Gemini"
+    ref: String!
+    "Business reference, if not defined falls back to the 'globalReg'"
+    businessRef: String!
+}
+
+input ArticleFilter {
+    id: ID
+    # brand: Trigram
+    title: String
+    description: String
+    ref: String
+    businessRef: String
+}

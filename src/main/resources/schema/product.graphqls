@@ -1,0 +1,90 @@
+"Data specific to Products, a type of Article"
+interface Product {
+
+    # -- shared with Article
+
+    "Globally unique PIM Technical Reference"
+    id: ID!
+    # "Brand code in three uppercase letters"
+    # brand: Trigram!
+    "Name or short description of the Article"
+    title: String!
+    "Technical or marketing description"
+    description: String!
+    "Global reference in SAP Gemini"
+    ref: String!
+    "Business reference, if not defined falls back to the 'globalReg'"
+    businessRef: String!
+
+    # -- product specific fields
+
+    "The Product family"
+    family: Trigram
+    "Serials for individually priced Products"
+    serials: [Article]!
+    "Data local to a specific region (country), if specified at least region is defined"
+    local: [LocalProductData!]
+
+}
+
+"Filters Articles on Product"
+input ProductDataFilter {
+    family: Trigram
+    serial: ArticleFilter
+    # For some reason the LocalProductDataFilter is not recognized as an input type, there seems to be supposedly fixed
+    # bugs related to nested filters, cf. https://github.com/graphql-java-kickstart/graphql-java-tools/issues/77
+    # FIXME make LocalProductDataFilter work
+    #local: LocalProductDataFilter
+}
+
+"Filter Articles on LocalProductData"
+input LocalProductDataFilter {
+    region: Region
+    salesOrg: SalesOrg
+    "Reference used by the local ERP or globalRef if region is managed by SAP"
+    ref: String
+    price: PriceFilter
+}
+
+"Filter Articles on Price"
+input PriceFilter {
+    code: String
+    currency: Trigram
+    min: Money
+    max: Money
+}
+
+# Matches data in dms-article-availability and local overlay fields
+type LocalProductData {
+    region: Region!
+    salesOrg: SalesOrg
+
+    "Reference used by the local ERP or globalRef if region is managed by SAP"
+    ref: String
+    """
+    Typically there is only one price for any given region (market) but sometimes there is more than one!
+    If specified there is price for at least one region.
+    """
+    prices: [Price!]
+
+    # visible: Boolean!     # Visible should be replaced with the fact that a catalog is in a Channel, remove?
+    # sellable: Boolean!    # Products without Availability are never sellable!
+    # inStock:  Boolean!    # Products without Availability are never inStock!
+}
+
+"Price of a Product"
+type Price {
+    "SWSE Price Code, typically the same as the SalesOrgScalarType but different for legacy markets"
+    code: String!
+    "Three letter ISO currency"
+    currency: Trigram
+    value: Money
+}
+
+
+"Monetary value with zero to four decimals"
+scalar Money
+
+"SAP Gemini identifier for a Region and Brand defining a market"
+scalar SalesOrg
+
