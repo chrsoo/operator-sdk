@@ -2,9 +2,8 @@ FROM registry.access.redhat.com/ubi7-dev-preview/ubi-minimal:7.6
 
 COPY bin /usr/local/bin
 # Defualt operator name and namespace
-ONBUILD ENV \
-    NAMESPACE=github.com/example-inc \
-    NAME=app-operator
+ONBUILD ARG NAMESPACE=github.com/example-inc
+ONBUILD ARG NAME=app-operator
 
 ONBUILD ENV \
     OPERATOR=/usr/local/bin/${NAME} \
