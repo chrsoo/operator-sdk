@@ -1,0 +1,2 @@
+FROM chrsoo/operator-sdk:latest AS builder
+FROM chrsoo/operator-base:latest
