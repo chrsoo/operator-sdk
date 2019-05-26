@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/ubi7-dev-preview/ubi-minimal:7.6
-COPY bin /usr/local/bin
 
+COPY bin /usr/local/bin
 # Defualt operator name and namespace
 ONBUILD ENV \
     NAMESPACE=github.com/example-inc \
@@ -10,7 +10,6 @@ ONBUILD ENV \
     OPERATOR=/usr/local/bin/${NAME} \
     USER_UID=1001 \
     USER_NAME=${NAME}
-
 
 # install operator binary
 ONBUILD COPY --from=builder /go/bin/${NAME} ${OPERATOR}
